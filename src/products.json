@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "5b9911e1937a66cd895f0f58",
+    "product": "oil change",
+    "price": 1500
+  },
+  {
+    "_id": "5b9911e1cd5fd9e862e4ae7c",
+    "product": "inspe",
+    "price": 1500
+  },
+  {
+    "_id": "5b9911e189c93e74ae12ec9b",
+    "product": "gears repair",
+    "price": 1500
+  },
+  {
+    "_id": "5b9911e1ff92b423ef9cede5",
+    "product": "oil change",
+    "price": 150
+  },
+  {
+    "_id": "5b9911e14c97185f58238323",
+    "product": "inspe",
+    "price": 150
+  },
+  {
+    "_id": "5b9911e12a3e5da0efe2ebc9",
+    "product": "oil change",
+    "price": 100
+  }
+]
