@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Product from './Product';
 
 const data =[
     {
@@ -49,7 +50,11 @@ class productList extends Component {
                             onChange={this.searchHandler}/>
                 </form>
                 {data.filter(searchingFor(this.state.term)).map((product, index) => {
-                    return (<li key={index}>{product.name} {product.type}</li>);
+                    return (
+                        <div>
+                            <Product key={index} name={product.name}/>
+                        </div>
+                    );
                 })}
             </div>
         )
