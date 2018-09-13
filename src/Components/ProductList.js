@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Product from './Product';
+import PageNumbers from './PageNumbers';
 
 const products =[
     {
@@ -49,7 +50,6 @@ class productList extends Component {
 
     searchHandler(event) {
         this.setState({term: event.target.value})
-        this.state.showPages = false;
     }
 
     render() {
@@ -59,10 +59,6 @@ class productList extends Component {
         const indexOfLastProduct = currentPage * productsPerPage;
         const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
         const currentProducts = products.slice(indexOfFirstProduct, indexOfLastProduct);
-
-        const renderProducts = currentProducts.map((product, index) => {
-                return <li key={index}>{product.name}</li>;
-        });
 
         const pageNumbers = [];
         for (let i = 1; i <= Math.ceil(products.length / productsPerPage); i++) {
@@ -89,16 +85,14 @@ class productList extends Component {
                 </form>
                 {this.state.term !== '' ?
                     products.filter(searchingFor(this.state.term)).map((product, index) => {
-                    return (
-                        <div>
-                            <Product key={index} name={product.name}/>
-                        </div>
-                    );
+                    return <Product key={index} name={product.name}/>;
                 })
                 : null}
                 {this.state.term === '' ?
                     <div><ul>
-                    {renderProducts}
+                    {currentProducts.map((product, index) => {
+                        return <Product key={index} name={product.name}/>
+                    })}
                 </ul>
                 <ul id="page-numbers">
                     {renderPageNumbers}
