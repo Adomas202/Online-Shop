@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductList from './ProductList';
 import OrderList from './OrderList';
-import {Route} from 'react-router-dom';
+import {Route, Link} from 'react-router-dom';
 
 export const Header = (props) => {
     return (
@@ -12,13 +12,15 @@ export const Header = (props) => {
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <a href="/">Products List</a>
-                <a href="/Orders">Orders List</a>
+                <Link to="/">Products List</Link>
+                <Link to={{
+                    pathname: '/Orders'
+                }}>Orders List</Link>
             </nav>
             <Route path="/" exact component={ProductList}/>
             <Route path="/Orders" component={OrderList}/>
         </div>
     );
-}
+};
 
 export default Header;
