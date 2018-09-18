@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Product from '../Product/Product';
+import Order from './Order';
 
 const orders =[
     {
@@ -92,13 +92,13 @@ class OrderList extends Component {
                 </form>
                 {this.state.term !== '' ?
                     orders.filter(searchingFor(this.state.term)).map((product, index) => {
-                        return <Product name={product.name} product={product.name} key={product.id}/>;
+                        return <Order name={product.name} product={product.name} key={product.id}/>;
                     })
                     : null}
                 {this.state.term === '' ?
                     <div><ul>
                         {currentorders.map((product, index) => {
-                            return <Product name={product.name} product={product.name} key={product.id}/>
+                            return <Order name={product.name} product={product.name} key={product.id}/>
                         })}
                     </ul>
                         <ul className="pagination" id="page-numbers">
