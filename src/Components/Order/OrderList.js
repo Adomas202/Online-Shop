@@ -1,29 +1,6 @@
 import React, { Component } from 'react';
 import Order from './Order';
 
-const orders =[
-    {
-        "id":"1",
-        "name":"Tepalu keitimas",
-        "type":"Greitas"
-    },
-    {
-        "id":"2",
-        "name":"Pavaru taisymas",
-        "type":"Letas"
-    },
-    {
-        "id":"3",
-        "name":"Apziura",
-        "type":"Labai greitas"
-    },
-    {
-        "id":"4",
-        "name":"Lempos keitimas",
-        "type":"Greitas"
-    },
-];
-
 const searchingFor = (term) => {
     return (x) => {
         return x.name.toLowerCase().includes(term.toLowerCase()) || !term;
