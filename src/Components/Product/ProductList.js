@@ -17,7 +17,7 @@ class productList extends Component {
             products: products,
             term: '',
             currentPage: 1,
-            productsPerPage: 6,
+            productsPerPage: 9,
         };
 
         this.handleClick = this.handleClick.bind(this);

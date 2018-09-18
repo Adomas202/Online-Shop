@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Order from './Order';
 
 const searchingFor = (term) => {
     return (x) => {
-        return x.name.toLowerCase().includes(term.toLowerCase()) || !term;
+        return x.number.toLowerCase().includes(term.toLowerCase()) || !term;
     }
 };
 
@@ -12,11 +12,13 @@ class OrderList extends Component {
     constructor(props) {
         super(props);
 
+        const orders = require('../../JSONfiles/orders');
+
         this.state = {
             orders: orders,
             term: '',
             currentPage: 1,
-            ordersPerPage: 3,
+            ordersPerPage: 10,
         };
 
         this.handleClick = this.handleClick.bind(this);
@@ -35,7 +37,7 @@ class OrderList extends Component {
 
     render() {
 
-        const {orders, currentPage, ordersPerPage } = this.state;
+        const {orders, currentPage, ordersPerPage} = this.state;
 
         const indexOfLastProduct = currentPage * ordersPerPage;
         const indexOfFirstProduct = indexOfLastProduct - ordersPerPage;
@@ -50,13 +52,13 @@ class OrderList extends Component {
             return (
                 <li className="page-item">
                     <a
-                    className="page-link"
-                    key={number}
-                    id={number}
-                    onClick={this.handleClick}
-                >
-                    {number}
-                </a>
+                        className="page-link"
+                        key={number}
+                        id={number}
+                        onClick={this.handleClick}
+                    >
+                        {number}
+                    </a>
                 </li>
             );
         });
@@ -64,18 +66,29 @@ class OrderList extends Component {
         return (
             <div>
                 <form>
-                    <input type="text"
+                    <h6>Paieška pagal užsakymo numerį</h6>
+                    <input type="text" className="form-control mr-sm-2 searchBar"
                            onChange={this.searchHandler}/>
                 </form>
                 {this.state.term !== '' ?
-                    orders.filter(searchingFor(this.state.term)).map((product, index) => {
-                        return <Order name={product.name} product={product.name} key={product.id}/>;
+                    orders.filter(searchingFor(this.state.term)).map((order, index) => {
+                        return <Order brand={order.brand}
+                                      number={order.number}
+                                      price={order.price}
+                                      color={order.color}
+                                      deliveryTime={order.deliveryTime}
+                                      key={order.id}/>;
                     })
                     : null}
                 {this.state.term === '' ?
                     <div><ul>
-                        {currentorders.map((product, index) => {
-                            return <Order name={product.name} product={product.name} key={product.id}/>
+                        {currentorders.map((order, index) => {
+                            return <Order brand={order.brand}
+                                          number={order.number}
+                                          price={order.price}
+                                          color={order.color}
+                                          deliveryTime={order.deliveryTime}
+                                          key={order.id}/>;
                         })}
                     </ul>
                         <ul className="pagination" id="page-numbers">

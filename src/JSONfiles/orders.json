@@ -1,0 +1,730 @@
+[
+  {
+    "id": 0,
+    "number": "e91792c7-8f04-41a2-969c-f07669c9c848",
+    "brand": "Apple Iphone 8 PLUS",
+    "price": "527.50€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-10-12"
+  },
+  {
+    "id": 1,
+    "number": "5bbf6b20-6f3d-499f-9ece-b358ed1560bf",
+    "brand": "OnePlus 3",
+    "price": "729.36€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-11-26"
+  },
+  {
+    "id": 2,
+    "number": "b040ef44-9fbb-48b0-9eb6-583b7e63dcc1",
+    "brand": "Huawei P20",
+    "price": "203.37€",
+    "color": "Geltona",
+    "deliveryTime": "2018-11-07"
+  },
+  {
+    "id": 3,
+    "number": "fc447c34-f40f-4a40-92c9-ed8cbc75ca0b",
+    "brand": "Samsung Galaxy S8",
+    "price": "893.00€",
+    "color": "Geltona",
+    "deliveryTime": "2018-10-20"
+  },
+  {
+    "id": 4,
+    "number": "842ce837-c34d-4d3c-bcdf-649090aa681e",
+    "brand": "Apple Iphone 7",
+    "price": "685.88€",
+    "color": "Balta",
+    "deliveryTime": "2018-11-06"
+  },
+  {
+    "id": 5,
+    "number": "814e197f-ae0b-43fd-b51e-698a764eabda",
+    "brand": "Lg G5",
+    "price": "208.02€",
+    "color": "Geltona",
+    "deliveryTime": "2018-12-06"
+  },
+  {
+    "id": 6,
+    "number": "37dcd615-adc5-44cf-9409-7d5da6d4f1e8",
+    "brand": "Apple Iphone Xs",
+    "price": "627.01€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-10-29"
+  },
+  {
+    "id": 7,
+    "number": "e5de1c71-3ca1-43d2-ae87-f7d77760043e",
+    "brand": "Apple Iphone Xs",
+    "price": "848.67€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-12-22"
+  },
+  {
+    "id": 8,
+    "number": "a150b91c-4423-4295-8486-dbeb91bc51ab",
+    "brand": "Samsung Galaxy S8",
+    "price": "700.35€",
+    "color": "Balta",
+    "deliveryTime": "2018-12-08"
+  },
+  {
+    "id": 9,
+    "number": "90b26e6e-2fd3-491d-a69a-d728ed440574",
+    "brand": "Apple Iphone 8 PLUS",
+    "price": "422.12€",
+    "color": "Ruda",
+    "deliveryTime": "2018-11-10"
+  },
+  {
+    "id": 10,
+    "number": "2417a672-b00e-4bf9-a29b-23aa681ca622",
+    "brand": "Huawei P20",
+    "price": "268.63€",
+    "color": "Ruda",
+    "deliveryTime": "2018-12-06"
+  },
+  {
+    "id": 11,
+    "number": "61e7a230-2822-4064-b240-459e52e6833b",
+    "brand": "OnePlus 6",
+    "price": "425.15€",
+    "color": "Geltona",
+    "deliveryTime": "2018-11-28"
+  },
+  {
+    "id": 12,
+    "number": "e2e95c23-1d35-4725-8913-8245a9e5fa9d",
+    "brand": "OnePlus 3",
+    "price": "535.15€",
+    "color": "Ruda",
+    "deliveryTime": "2018-09-24"
+  },
+  {
+    "id": 13,
+    "number": "92451abc-7a99-4947-ad47-4a2c62a708f2",
+    "brand": "OnePlus 3",
+    "price": "311.42€",
+    "color": "Ruda",
+    "deliveryTime": "2018-10-12"
+  },
+  {
+    "id": 14,
+    "number": "49397e89-dc38-47a8-9ed8-59f82070c994",
+    "brand": "Apple Iphone 7",
+    "price": "470.81€",
+    "color": "Ruda",
+    "deliveryTime": "2018-10-25"
+  },
+  {
+    "id": 15,
+    "number": "4bff01c0-4043-4c9f-8dcb-5a7d52f7d330",
+    "brand": "Apple Iphone Xs",
+    "price": "599.33€",
+    "color": "Ruda",
+    "deliveryTime": "2018-10-22"
+  },
+  {
+    "id": 16,
+    "number": "96c7d551-b612-46de-a2c6-5963b8ded520",
+    "brand": "Apple Iphone 7",
+    "price": "505.46€",
+    "color": "Ruda",
+    "deliveryTime": "2018-12-16"
+  },
+  {
+    "id": 17,
+    "number": "a5ff5491-cc58-4554-95ff-620f97d88b25",
+    "brand": "Lg G5",
+    "price": "864.26€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-11-11"
+  },
+  {
+    "id": 18,
+    "number": "f6b89290-49d5-48f0-844d-a74a5bec6322",
+    "brand": "Apple Iphone 8 PLUS",
+    "price": "403.98€",
+    "color": "Balta",
+    "deliveryTime": "2018-10-05"
+  },
+  {
+    "id": 19,
+    "number": "2aea5549-76ec-4e4a-880a-14e93d061cf5",
+    "brand": "Lg G5",
+    "price": "831.37€",
+    "color": "Balta",
+    "deliveryTime": "2018-09-22"
+  },
+  {
+    "id": 20,
+    "number": "a17392ef-e4c3-49da-9dca-031234852381",
+    "brand": "OnePlus 3",
+    "price": "780.80€",
+    "color": "Geltona",
+    "deliveryTime": "2018-10-10"
+  },
+  {
+    "id": 21,
+    "number": "d28122f2-6ee6-433f-b8d3-d8109db6ac22",
+    "brand": "OnePlus 3",
+    "price": "605.21€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-11-19"
+  },
+  {
+    "id": 22,
+    "number": "8aeff9fa-1f05-4507-96d7-036ff4f437b2",
+    "brand": "Huawei P20 PRO",
+    "price": "799.41€",
+    "color": "Balta",
+    "deliveryTime": "2018-12-30"
+  },
+  {
+    "id": 23,
+    "number": "9da1e2e0-9b46-4c1b-bbb9-d1a9b10b30ee",
+    "brand": "Apple Iphone 8 PLUS",
+    "price": "752.09€",
+    "color": "Balta",
+    "deliveryTime": "2018-09-27"
+  },
+  {
+    "id": 24,
+    "number": "e45d61bc-975c-43ea-a3e5-7764024d9f2b",
+    "brand": "Lg G5",
+    "price": "668.97€",
+    "color": "Geltona",
+    "deliveryTime": "2018-12-21"
+  },
+  {
+    "id": 25,
+    "number": "b0da80fb-eea9-4823-a65b-ba2137afa0d2",
+    "brand": "Samsung Galaxy S8",
+    "price": "527.86€",
+    "color": "Ruda",
+    "deliveryTime": "2018-11-05"
+  },
+  {
+    "id": 26,
+    "number": "8075dc26-56cd-4300-9a90-42384766948a",
+    "brand": "OnePlus 3",
+    "price": "646.44€",
+    "color": "Balta",
+    "deliveryTime": "2018-12-14"
+  },
+  {
+    "id": 27,
+    "number": "43632106-2cb7-43ec-a806-4b0571a4c855",
+    "brand": "Lg G5",
+    "price": "421.36€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-12-19"
+  },
+  {
+    "id": 28,
+    "number": "6cd5f721-0988-468d-b33b-c89fea805767",
+    "brand": "Lg G5",
+    "price": "861.70€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-12-24"
+  },
+  {
+    "id": 29,
+    "number": "455c693d-8898-41cc-9803-203acba5d1ee",
+    "brand": "Apple Iphone 8 PLUS",
+    "price": "875.81€",
+    "color": "Ruda",
+    "deliveryTime": "2018-10-23"
+  },
+  {
+    "id": 30,
+    "number": "732e6a36-69fb-47f9-9472-3bf6253e8440",
+    "brand": "OnePlus 3",
+    "price": "538.81€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-10-05"
+  },
+  {
+    "id": 31,
+    "number": "0da13f59-cb32-422e-b9dc-05adc13402a0",
+    "brand": "OnePlus 3",
+    "price": "759.09€",
+    "color": "Geltona",
+    "deliveryTime": "2018-10-02"
+  },
+  {
+    "id": 32,
+    "number": "88c62269-0458-4bb8-ad0a-eeb94966cc6e",
+    "brand": "Samsung Galaxy S8",
+    "price": "636.38€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-11-25"
+  },
+  {
+    "id": 33,
+    "number": "b69b7645-f274-4cf6-adb9-0537f61e38dd",
+    "brand": "Apple Iphone 7",
+    "price": "173.14€",
+    "color": "Balta",
+    "deliveryTime": "2018-10-03"
+  },
+  {
+    "id": 34,
+    "number": "4c8dba48-dd80-4595-b544-867046eeb70d",
+    "brand": "Huawei P20 PRO",
+    "price": "543.21€",
+    "color": "Ruda",
+    "deliveryTime": "2018-12-10"
+  },
+  {
+    "id": 35,
+    "number": "b6e1093c-143d-4ba4-a389-5f1ff82fd573",
+    "brand": "Lg G5",
+    "price": "865.15€",
+    "color": "Ruda",
+    "deliveryTime": "2018-12-31"
+  },
+  {
+    "id": 36,
+    "number": "c3f93994-8310-4606-8993-40581ed99f7d",
+    "brand": "Huawei P20 PRO",
+    "price": "364.08€",
+    "color": "Ruda",
+    "deliveryTime": "2018-11-04"
+  },
+  {
+    "id": 37,
+    "number": "1ee9d5e4-972a-4709-b684-308975a9278a",
+    "brand": "Huawei P20",
+    "price": "847.44€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-09-25"
+  },
+  {
+    "id": 38,
+    "number": "412ed05e-1292-464e-a46f-633433ac9cd4",
+    "brand": "Huawei P20",
+    "price": "805.33€",
+    "color": "Balta",
+    "deliveryTime": "2018-12-06"
+  },
+  {
+    "id": 39,
+    "number": "4470f48e-3adf-4dca-b6cd-9ee01a5d3515",
+    "brand": "OnePlus 6",
+    "price": "766.60€",
+    "color": "Balta",
+    "deliveryTime": "2018-11-06"
+  },
+  {
+    "id": 40,
+    "number": "662a9f6f-ab25-4376-8bd7-4900b7f151ba",
+    "brand": "Apple Iphone 8 PLUS",
+    "price": "270.04€",
+    "color": "Balta",
+    "deliveryTime": "2018-09-21"
+  },
+  {
+    "id": 41,
+    "number": "0416b4b4-e9f5-4273-844a-4eb1a2038fdf",
+    "brand": "Apple Iphone 8 PLUS",
+    "price": "204.77€",
+    "color": "Balta",
+    "deliveryTime": "2018-11-17"
+  },
+  {
+    "id": 42,
+    "number": "c7313c19-9bdc-4df0-8cd4-62d78d759069",
+    "brand": "Lg G5",
+    "price": "657.18€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-11-17"
+  },
+  {
+    "id": 43,
+    "number": "10dfddbc-2fb2-4dbb-893f-a41313dd2c27",
+    "brand": "OnePlus 6",
+    "price": "205.15€",
+    "color": "Ruda",
+    "deliveryTime": "2018-11-06"
+  },
+  {
+    "id": 44,
+    "number": "f9b2d96f-a18a-4c30-b636-c3e05fe9f0bd",
+    "brand": "Apple Iphone 7",
+    "price": "833.43€",
+    "color": "Balta",
+    "deliveryTime": "2018-10-13"
+  },
+  {
+    "id": 45,
+    "number": "b389c980-a728-473c-8fa3-3bfc92515a73",
+    "brand": "Huawei P20 PRO",
+    "price": "743.32€",
+    "color": "Ruda",
+    "deliveryTime": "2018-10-30"
+  },
+  {
+    "id": 46,
+    "number": "ab6532ec-8173-4b6d-b003-929103de97b0",
+    "brand": "Huawei P20 PRO",
+    "price": "743.23€",
+    "color": "Balta",
+    "deliveryTime": "2018-12-29"
+  },
+  {
+    "id": 47,
+    "number": "d076579f-4eda-4c0c-8d00-191f4c7c1008",
+    "brand": "Apple Iphone Xs",
+    "price": "619.14€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-12-05"
+  },
+  {
+    "id": 48,
+    "number": "9a6e1bd2-f242-4a83-9347-65435097d794",
+    "brand": "Lg G5",
+    "price": "839.90€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-11-17"
+  },
+  {
+    "id": 49,
+    "number": "917432c4-6758-479c-a6ce-a6a9a35eed72",
+    "brand": "OnePlus 6",
+    "price": "284.72€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-10-08"
+  },
+  {
+    "id": 50,
+    "number": "d6e89e39-d84e-4212-a4cf-23b6e98faa46",
+    "brand": "Apple Iphone 8 PLUS",
+    "price": "443.40€",
+    "color": "Balta",
+    "deliveryTime": "2018-10-11"
+  },
+  {
+    "id": 51,
+    "number": "43e352f5-fce6-41c2-8529-ee30a47b43bf",
+    "brand": "Lg G5",
+    "price": "196.46€",
+    "color": "Balta",
+    "deliveryTime": "2018-09-21"
+  },
+  {
+    "id": 52,
+    "number": "61710f84-ae6d-4133-b8f8-e2f7972dd784",
+    "brand": "Apple Iphone 8 PLUS",
+    "price": "328.13€",
+    "color": "Geltona",
+    "deliveryTime": "2018-12-09"
+  },
+  {
+    "id": 53,
+    "number": "81953bd2-01c6-45ba-9309-8e47f7e28482",
+    "brand": "OnePlus 3",
+    "price": "575.26€",
+    "color": "Geltona",
+    "deliveryTime": "2018-10-15"
+  },
+  {
+    "id": 54,
+    "number": "4ddf76a4-caaf-4577-ae37-8ab911134425",
+    "brand": "Samsung Galaxy S9",
+    "price": "301.17€",
+    "color": "Geltona",
+    "deliveryTime": "2018-09-30"
+  },
+  {
+    "id": 55,
+    "number": "2a35e59c-f3ac-4040-b8b4-6c36c8a36473",
+    "brand": "Apple Iphone 8 PLUS",
+    "price": "250.44€",
+    "color": "Balta",
+    "deliveryTime": "2018-11-23"
+  },
+  {
+    "id": 56,
+    "number": "e59ea6dd-6ee1-4cae-ae49-91575bd03a04",
+    "brand": "Apple Iphone Xs",
+    "price": "603.24€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-10-14"
+  },
+  {
+    "id": 57,
+    "number": "f6a88a00-49cd-4d3c-a3d2-81c9f367ca08",
+    "brand": "Huawei P20",
+    "price": "612.58€",
+    "color": "Ruda",
+    "deliveryTime": "2018-10-12"
+  },
+  {
+    "id": 58,
+    "number": "62462dde-af6e-43ea-a9b8-e3bef30adf77",
+    "brand": "OnePlus 6",
+    "price": "631.26€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-11-30"
+  },
+  {
+    "id": 59,
+    "number": "fcb24311-8b6a-4c40-a301-936f15125343",
+    "brand": "Huawei P20",
+    "price": "314.80€",
+    "color": "Balta",
+    "deliveryTime": "2018-11-15"
+  },
+  {
+    "id": 60,
+    "number": "5b59af80-0cc3-4325-9d65-7f9a9b733331",
+    "brand": "Apple Iphone 8 PLUS",
+    "price": "550.60€",
+    "color": "Ruda",
+    "deliveryTime": "2018-09-24"
+  },
+  {
+    "id": 61,
+    "number": "b62998f1-9195-48af-9e12-7e28b8cbc478",
+    "brand": "Samsung Galaxy S9",
+    "price": "488.41€",
+    "color": "Geltona",
+    "deliveryTime": "2018-11-28"
+  },
+  {
+    "id": 62,
+    "number": "dcba2a12-3b31-4c37-be30-3c294ae05a7f",
+    "brand": "Lg G5",
+    "price": "890.63€",
+    "color": "Balta",
+    "deliveryTime": "2018-11-03"
+  },
+  {
+    "id": 63,
+    "number": "52771f4e-4ae0-4718-943b-40cd2594aa9d",
+    "brand": "Apple Iphone 7",
+    "price": "868.53€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-12-07"
+  },
+  {
+    "id": 64,
+    "number": "62e331a4-958d-4cfd-8b24-a90b0597d0b0",
+    "brand": "Samsung Galaxy S9",
+    "price": "270.97€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-09-23"
+  },
+  {
+    "id": 65,
+    "number": "0c4c176f-e198-4009-9a10-aa0eccb86aa6",
+    "brand": "Samsung Galaxy S9",
+    "price": "295.49€",
+    "color": "Ruda",
+    "deliveryTime": "2018-11-14"
+  },
+  {
+    "id": 66,
+    "number": "a9d039af-7a9e-4228-b835-8cf7cffef3f2",
+    "brand": "Apple Iphone 7",
+    "price": "631.69€",
+    "color": "Balta",
+    "deliveryTime": "2018-12-04"
+  },
+  {
+    "id": 67,
+    "number": "299c373e-1ddd-4368-aba9-5b38fdac8e62",
+    "brand": "Apple Iphone 7",
+    "price": "768.11€",
+    "color": "Balta",
+    "deliveryTime": "2018-11-03"
+  },
+  {
+    "id": 68,
+    "number": "b7cfa50c-4258-4a4a-9f0d-93dd0183f889",
+    "brand": "Samsung Galaxy S9",
+    "price": "723.94€",
+    "color": "Balta",
+    "deliveryTime": "2018-12-05"
+  },
+  {
+    "id": 69,
+    "number": "4c538d16-5d9e-45c4-bf8a-76229ba907c9",
+    "brand": "Samsung Galaxy S9",
+    "price": "661.29€",
+    "color": "Balta",
+    "deliveryTime": "2018-10-19"
+  },
+  {
+    "id": 70,
+    "number": "4a84c57f-f8f9-4b18-897d-252d6f233f78",
+    "brand": "Samsung Galaxy S9",
+    "price": "570.86€",
+    "color": "Ruda",
+    "deliveryTime": "2018-12-19"
+  },
+  {
+    "id": 71,
+    "number": "738881dd-c6b2-4c5d-bb83-aacccb273cba",
+    "brand": "Samsung Galaxy S8",
+    "price": "565.81€",
+    "color": "Ruda",
+    "deliveryTime": "2018-11-21"
+  },
+  {
+    "id": 72,
+    "number": "6f282cfb-0bbd-4722-afe7-28107c0a369c",
+    "brand": "Apple Iphone 8 PLUS",
+    "price": "174.05€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-12-25"
+  },
+  {
+    "id": 73,
+    "number": "7b91dd87-2bbf-40c1-8dd8-a9e41ff28859",
+    "brand": "Huawei P20 PRO",
+    "price": "186.38€",
+    "color": "Geltona",
+    "deliveryTime": "2018-12-22"
+  },
+  {
+    "id": 74,
+    "number": "07ec613d-f172-4e6a-bf6e-eef8bb3e6142",
+    "brand": "OnePlus 3",
+    "price": "794.57€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-11-05"
+  },
+  {
+    "id": 75,
+    "number": "b8f0a90a-3c03-43d5-adde-9c2ec234844a",
+    "brand": "Samsung Galaxy S9",
+    "price": "157.35€",
+    "color": "Ruda",
+    "deliveryTime": "2018-09-19"
+  },
+  {
+    "id": 76,
+    "number": "145828cb-059a-450b-8aef-7b1da05045f7",
+    "brand": "OnePlus 3",
+    "price": "607.53€",
+    "color": "Geltona",
+    "deliveryTime": "2018-12-30"
+  },
+  {
+    "id": 77,
+    "number": "50661942-b0cb-4a98-8fc7-2ec3106ee9fe",
+    "brand": "OnePlus 3",
+    "price": "295.60€",
+    "color": "Ruda",
+    "deliveryTime": "2018-10-12"
+  },
+  {
+    "id": 78,
+    "number": "ea17f46e-88cd-4d21-b768-16e0b2e59ebf",
+    "brand": "Huawei P20",
+    "price": "590.75€",
+    "color": "Balta",
+    "deliveryTime": "2018-11-11"
+  },
+  {
+    "id": 79,
+    "number": "6c422530-9803-4a9e-94d5-a2ca9c0ff22d",
+    "brand": "Samsung Galaxy S9",
+    "price": "781.74€",
+    "color": "Ruda",
+    "deliveryTime": "2018-12-07"
+  },
+  {
+    "id": 80,
+    "number": "0cddd0f3-3013-43a1-ae9e-237795fa0ddc",
+    "brand": "Lg G5",
+    "price": "675.34€",
+    "color": "Ruda",
+    "deliveryTime": "2018-11-15"
+  },
+  {
+    "id": 81,
+    "number": "b78fc496-1917-4b35-aea7-fce6861f7c16",
+    "brand": "Lg G5",
+    "price": "435.98€",
+    "color": "Balta",
+    "deliveryTime": "2018-11-22"
+  },
+  {
+    "id": 82,
+    "number": "0180bd9f-b4e9-4605-bc9e-a521e663ae2f",
+    "brand": "Lg G5",
+    "price": "331.79€",
+    "color": "Ruda",
+    "deliveryTime": "2018-11-17"
+  },
+  {
+    "id": 83,
+    "number": "d17b0bae-f337-49d7-b090-edbd4c9a698d",
+    "brand": "Samsung Galaxy S9",
+    "price": "607.74€",
+    "color": "Geltona",
+    "deliveryTime": "2018-11-07"
+  },
+  {
+    "id": 84,
+    "number": "626bd659-e65d-4e8d-9a78-db80e9eab17d",
+    "brand": "Apple Iphone 7",
+    "price": "895.74€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-11-10"
+  },
+  {
+    "id": 85,
+    "number": "f98a260d-86cd-4f30-9757-a5a918f1b898",
+    "brand": "Huawei P20",
+    "price": "724.46€",
+    "color": "Ruda",
+    "deliveryTime": "2018-10-15"
+  },
+  {
+    "id": 86,
+    "number": "d245c530-686a-40b7-b0ee-f68bfefb2095",
+    "brand": "Apple Iphone Xs",
+    "price": "823.00€",
+    "color": "Geltona",
+    "deliveryTime": "2018-10-16"
+  },
+  {
+    "id": 87,
+    "number": "d16ee113-74a9-4d0c-8b20-ea91c4a03b63",
+    "brand": "Huawei P20 PRO",
+    "price": "882.21€",
+    "color": "Balta",
+    "deliveryTime": "2018-11-21"
+  },
+  {
+    "id": 88,
+    "number": "68067009-6706-4688-a364-01dee088dcaa",
+    "brand": "Huawei P20",
+    "price": "342.25€",
+    "color": "Mėlyna",
+    "deliveryTime": "2018-11-19"
+  },
+  {
+    "id": 89,
+    "number": "7327640e-98b8-4cd4-9273-38867f6bd9c5",
+    "brand": "Apple Iphone Xs",
+    "price": "514.11€",
+    "color": "Ruda",
+    "deliveryTime": "2018-12-13"
+  },
+  {
+    "id": 89,
+    "number": "7327640e-98b8-4cd4-9273-38867f6bd9c5",
+    "brand": "Apple Iphone Xs",
+    "price": "514.11€",
+    "color": "Ruda",
+    "deliveryTime": "2018-12-13"
+  }
+]
