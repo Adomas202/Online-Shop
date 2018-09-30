@@ -1,4 +1,9 @@
 import React, {Component} from 'react';
+import axios from 'axios';
+import {Route, Link} from 'react-router-dom';
+
+import FullOrder from './FullOrder/fullOrder';
+
 import Order from './Order';
 
 const searchingFor = (term) => {
@@ -16,6 +21,8 @@ class OrderList extends Component {
 
         this.state = {
             orders: orders,
+            posts: [],
+            selectedPostId: null,
             term: '',
             currentPage: 1,
             ordersPerPage: 10,
@@ -23,6 +30,19 @@ class OrderList extends Component {
 
         this.handleClick = this.handleClick.bind(this);
         this.searchHandler = this.searchHandler.bind(this);
+    }
+
+    componentDidMount() {
+        axios.get("https://jsonplaceholder.typicode.com/posts").then(response => {
+            const posts = response.data.slice(0, 6);
+            const updatedPosts = posts.map(post => {
+                return {
+                    ...post,
+                    author: 'Max'
+                }
+            });
+            this.setState({posts: updatedPosts});
+        })
     }
 
     handleClick(event) {
@@ -35,8 +55,11 @@ class OrderList extends Component {
         this.setState({term: event.target.value})
     }
 
-    render() {
+    postSelectedhandler = (id) => {
+        this.setState({selectedPostId: id})
+    };
 
+    render() {
         const {orders, currentPage, ordersPerPage} = this.state;
 
         const indexOfLastProduct = currentPage * ordersPerPage;
@@ -55,8 +78,7 @@ class OrderList extends Component {
                         className="page-link"
                         key={number}
                         id={number}
-                        onClick={this.handleClick}
-                    >
+                        onClick={this.handleClick}>
                         {number}
                     </a>
                 </li>
@@ -77,26 +99,33 @@ class OrderList extends Component {
                                       price={order.price}
                                       color={order.color}
                                       deliveryTime={order.deliveryTime}
+                                      clicked={() => this.postSelectedhandler(order.id)}
                                       key={order.id}/>;
                     })
                     : null}
                 {this.state.term === '' ?
-                    <div><ul>
-                        {currentorders.map((order, index) => {
-                            return <Order brand={order.brand}
-                                          number={order.number}
-                                          price={order.price}
-                                          color={order.color}
-                                          deliveryTime={order.deliveryTime}
-                                          key={order.id}/>;
-                        })}
-                    </ul>
+                    <div>
+                        <Route path={this.props.match.url + '/:id'} exact component={FullOrder}/>
+                        <ul>
+                            {
+                                this.state.posts.map((order, index) => {
+                                return (
+                                    <Link to={'/orders/' + order.id} key={order.id}>
+                                        <Order brand={order.title}
+                                               number={order.id}
+                                               clicked={() => this.postSelectedhandler(order.id)}
+                                        />
+                                    </Link>
+                                )
+                            })}
+                        </ul>
                         <ul className="pagination" id="page-numbers">
                             {renderPageNumbers}
-                        </ul></div>
+                        </ul>
+                    </div>
                     : null}
             </div>
-        );
+        )
     }
 }
 

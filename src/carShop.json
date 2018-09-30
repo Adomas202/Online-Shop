@@ -1,0 +1,80 @@
+[
+  {
+    "ap:automobiliuParduotuve": {
+      "-xmlns:ap": "http://uosis.mif.vu.lt/~adpo3587/AutomobiliuParduotuve",
+      "-xmlns:cylinders": "urn:123124325",
+      "ap:Pardavejai": {
+        "ap:Pardavejai": {
+          "-id": "023802746",
+          "-name": "Romas"
+        },
+        "ap:pardavejas": [
+          {
+            "-id": "023802747",
+            "-name": "Aldonas"
+          },
+          {
+            "-id": "023802748",
+            "-name": "Tomas"
+          },
+          {
+            "-id": "023802749",
+            "-name": "Laurynas"
+          }
+        ]
+      },
+      "ap:automobiliuSarasas": {
+        "ap:automobilis": {
+          "-vin": "353245345345",
+          "modelis": "Toyota",
+          "marke": "corolla",
+          "pagaminimoData": "2017-04-14",
+          "cylinders:variklioTuris": "1.4",
+          "varomiejiRatai": "2",
+          "kaina": {
+            "-currency": "Euro",
+            "#text": "25000"
+          }
+        },
+        "automobilis": [
+          {
+            "-vin": "353245345345",
+            "modelis": "Toyota",
+            "marke": "corolla",
+            "pagaminimoData": "2017-04-14",
+            "variklioTuris": "1.4",
+            "varomiejiRatai": "2",
+            "kaina": {
+              "-currency": "Euro",
+              "#text": "25000"
+            }
+          },
+          {
+            "-vin": "353245345345",
+            "modelis": "Toyota",
+            "marke": "corolla",
+            "pagaminimoData": "2017-04-14",
+            "variklioTuris": "1.4",
+            "varomiejiRatai": "2",
+            "kaina": {
+              "-currency": "Euro",
+              "#text": "25000"
+            }
+          },
+          {
+            "-vin": "353245345345",
+            "modelis": "Toyota",
+            "marke": "corolla",
+            "pagaminimoData": "2017-04-14",
+            "variklioTuris": "1.4",
+            "varomiejiRatai": "2",
+            "kaina": {
+              "-currency": "Euro",
+              "#text": "25000"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

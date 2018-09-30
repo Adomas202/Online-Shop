@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ap:automobiliuParduotuve xmlns:ap="http://uosis.mif.vu.lt/~adpo3587/AutomobiliuParduotuve"
+                          xmlns:cylinders="urn:123124325">
+    <ap:Pardavejai>
+        <Pardavejai id="023802746" name="Romas"/>
+        <pardavejas id="023802747" name="Aldonas"/>
+        <pardavejas id="023802748" name="Tomas"/>
+        <pardavejas id="023802749" name="Laurynas"/>
+    </ap:Pardavejai>
+    <ap:automobiliuSarasas>
+        <automobilis vin="353245345345">
+            <modelis>Toyota</modelis>
+            <marke>corolla</marke>
+            <pagaminimoData>2017-04-14</pagaminimoData>
+            <cylinders:variklioTuris>1.4</cylinders:variklioTuris>
+            <varomiejiRatai>2</varomiejiRatai>
+            <kaina currency="Euro">25000</kaina>
+        </automobilis>
+        <automobilis vin="353245345345">
+            <modelis>Toyota</modelis>
+            <marke>corolla</marke>
+            <pagaminimoData>2017-04-14</pagaminimoData>
+            <variklioTuris>1.4</variklioTuris>
+            <varomiejiRatai>2</varomiejiRatai>
+            <kaina currency="Euro">25000</kaina>
+        </automobilis>
+        <automobilis vin="353245345345">
+            <modelis>Toyota</modelis>
+            <marke>corolla</marke>
+            <pagaminimoData>2017-04-14</pagaminimoData>
+            <variklioTuris>1.4</variklioTuris>
+            <varomiejiRatai>2</varomiejiRatai>
+            <kaina currency="Euro">25000</kaina>
+        </automobilis>
+        <automobilis vin="353245345345">
+            <modelis>Toyota</modelis>
+            <marke>corolla</marke>
+            <pagaminimoData>2017-04-14</pagaminimoData>
+            <variklioTuris>1.4</variklioTuris>
+            <varomiejiRatai>2</varomiejiRatai>
+            <kaina currency="Euro">25000</kaina>
+        </automobilis>
+    </ap:automobiliuSarasas>
+</ap:automobiliuParduotuve>
