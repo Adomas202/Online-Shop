@@ -6,7 +6,7 @@ class NewOrder extends Component {
     state = {
         title: '',
         content: '',
-        author: 'Max'
+        author: 'Max',
     };
 
     postDataHandler = () => {
@@ -15,7 +15,10 @@ class NewOrder extends Component {
             content: this.state.content
         };
         axios.post('https://jsonplaceholder.typicode.com/posts', data)
-            .then(response => console.log(response.data));
+            .then(response => {
+                console.log(response.data);
+                this.props.history.replace('/orders');
+            });
     };
 
     render() {
