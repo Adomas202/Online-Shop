@@ -2,7 +2,12 @@ import React, {Component} from 'react';
 import {Route, Link, Switch, Redirect} from 'react-router-dom';
 
 import OrderList from './Order/OrderList';
-import NewOrder from './Order/newOrder';
+// import NewOrder from './Order/newOrder';
+import asyncComponent from '../hoc/asyncComponent';
+
+const AsyncNewOrder = asyncComponent(() => {
+    return import('./Order/newOrder');
+});
 
 class Header extends Component {
     state = {
@@ -25,7 +30,7 @@ class Header extends Component {
                     </ul>
                 </nav>
                 <Switch>
-                    {this.state.auth ? <Route path="/New-Order" component={NewOrder}/> : null }
+                    {this.state.auth ? <Route path="/New-Order" component={AsyncNewOrder}/> : null }
                     <Route path="/orders" component={OrderList}/>
                     {/*<Route render={() => <h1>Not found</h1>}/>*/}
                     <Redirect from="/" to="/orders"/>
