@@ -1,45 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ap:automobiliuParduotuve xmlns:ap="http://uosis.mif.vu.lt/~adpo3587/AutomobiliuParduotuve"
-                          xmlns:cylinders="urn:123124325">
-    <ap:Pardavejai>
+<ap:automobiliuParduotuve xmlns:ap="http://uosis.mif.vu.lt/~adpo3587/AutomobiliuParduotuve">
+    <Pardavejai>
         <Pardavejai id="023802746" name="Romas"/>
         <pardavejas id="023802747" name="Aldonas"/>
         <pardavejas id="023802748" name="Tomas"/>
         <pardavejas id="023802749" name="Laurynas"/>
-    </ap:Pardavejai>
-    <ap:automobiliuSarasas>
+    </Pardavejai>
+    <automobiliuSarasas>
         <automobilis vin="353245345345">
-            <modelis>Toyota</modelis>
-            <marke>corolla</marke>
+            <marke>Toyota</marke>
+            <modelis>corolla</modelis>
             <pagaminimoData>2017-04-14</pagaminimoData>
-            <cylinders:variklioTuris>1.4</cylinders:variklioTuris>
+            <variklioTurisLitrais>1.4</variklioTurisLitrais>
             <varomiejiRatai>2</varomiejiRatai>
-            <kaina currency="Euro">25000</kaina>
+            <kaina currency="Euro">
+                <isKarto>2500</isKarto>
+                <lizingas>3000</lizingas>
+            </kaina>
         </automobilis>
-        <automobilis vin="353245345345">
-            <modelis>Toyota</modelis>
-            <marke>corolla</marke>
-            <pagaminimoData>2017-04-14</pagaminimoData>
-            <variklioTuris>1.4</variklioTuris>
+        <automobilis vin="234234234">
+            <marke>Honda</marke>
+            <modelis>Accord</modelis>
+            <pagaminimoData>2015-06-14</pagaminimoData>
+            <variklioTurisLitrais>2</variklioTurisLitrais>
+            <varomiejiRatai>4</varomiejiRatai>
+            <kaina currency="Euro">
+                <isKarto>1200</isKarto>
+                <lizingas>2600</lizingas>
+            </kaina>
+        </automobilis>
+        <automobilis vin="23652346">
+            <marke>Ferrari</marke>
+            <modelis>La Ferrari</modelis>
+            <pagaminimoData>2015-04-14</pagaminimoData>
+            <variklioTurisLitrais>6.5</variklioTurisLitrais>
+            <varomiejiRatai>4</varomiejiRatai>
+            <kaina currency="Dollar">
+                <isKarto>2000000</isKarto>
+                <lizingas>-</lizingas>
+            </kaina>
+        </automobilis>
+        <automobilis vin="34657">
+            <marke>VW</marke>
+            <modelis>arteon</modelis>
+            <pagaminimoData>2018-01-09</pagaminimoData>
+            <variklioTurisLitrais>2.5</variklioTurisLitrais>
             <varomiejiRatai>2</varomiejiRatai>
-            <kaina currency="Euro">25000</kaina>
+            <kaina currency="Euro">
+                <isKarto>36000</isKarto>
+                <lizingas>45000</lizingas>
+            </kaina>
         </automobilis>
-        <automobilis vin="353245345345">
-            <modelis>Toyota</modelis>
-            <marke>corolla</marke>
-            <pagaminimoData>2017-04-14</pagaminimoData>
-            <variklioTuris>1.4</variklioTuris>
-            <varomiejiRatai>2</varomiejiRatai>
-            <kaina currency="Euro">25000</kaina>
-        </automobilis>
-        <automobilis vin="353245345345">
-            <modelis>Toyota</modelis>
-            <marke>corolla</marke>
-            <pagaminimoData>2017-04-14</pagaminimoData>
-            <variklioTuris>1.4</variklioTuris>
-            <varomiejiRatai>2</varomiejiRatai>
-            <kaina currency="Euro">25000</kaina>
-        </automobilis>
-    </ap:automobiliuSarasas>
+    </automobiliuSarasas>
 </ap:automobiliuParduotuve>

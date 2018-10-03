@@ -1,80 +1,81 @@
-[
-  {
-    "ap:automobiliuParduotuve": {
-      "-xmlns:ap": "http://uosis.mif.vu.lt/~adpo3587/AutomobiliuParduotuve",
-      "-xmlns:cylinders": "urn:123124325",
-      "ap:Pardavejai": {
-        "ap:Pardavejai": {
-          "-id": "023802746",
-          "-name": "Romas"
-        },
-        "ap:pardavejas": [
-          {
-            "-id": "023802747",
-            "-name": "Aldonas"
-          },
-          {
-            "-id": "023802748",
-            "-name": "Tomas"
-          },
-          {
-            "-id": "023802749",
-            "-name": "Laurynas"
-          }
-        ]
+{
+  "ap:automobiliuParduotuve": {
+    "-xmlns:ap": "http://uosis.mif.vu.lt/~adpo3587/AutomobiliuParduotuve",
+    "Pardavejai": {
+      "Pardavejai": {
+        "-id": "023802746",
+        "-name": "Romas"
       },
-      "ap:automobiliuSarasas": {
-        "ap:automobilis": {
+      "pardavejas": [
+        {
+          "-id": "023802747",
+          "-name": "Aldonas"
+        },
+        {
+          "-id": "023802748",
+          "-name": "Tomas"
+        },
+        {
+          "-id": "023802749",
+          "-name": "Laurynas"
+        }
+      ]
+    },
+    "automobiliuSarasas": {
+      "automobilis": [
+        {
           "-vin": "353245345345",
-          "modelis": "Toyota",
-          "marke": "corolla",
+          "marke": "Toyota",
+          "modelis": "corolla",
           "pagaminimoData": "2017-04-14",
-          "cylinders:variklioTuris": "1.4",
+          "variklioTurisLitrais": "1.4",
           "varomiejiRatai": "2",
           "kaina": {
             "-currency": "Euro",
-            "#text": "25000"
+            "isKarto": "2500",
+            "lizingas": "3000"
           }
         },
-        "automobilis": [
-          {
-            "-vin": "353245345345",
-            "modelis": "Toyota",
-            "marke": "corolla",
-            "pagaminimoData": "2017-04-14",
-            "variklioTuris": "1.4",
-            "varomiejiRatai": "2",
-            "kaina": {
-              "-currency": "Euro",
-              "#text": "25000"
-            }
-          },
-          {
-            "-vin": "353245345345",
-            "modelis": "Toyota",
-            "marke": "corolla",
-            "pagaminimoData": "2017-04-14",
-            "variklioTuris": "1.4",
-            "varomiejiRatai": "2",
-            "kaina": {
-              "-currency": "Euro",
-              "#text": "25000"
-            }
-          },
-          {
-            "-vin": "353245345345",
-            "modelis": "Toyota",
-            "marke": "corolla",
-            "pagaminimoData": "2017-04-14",
-            "variklioTuris": "1.4",
-            "varomiejiRatai": "2",
-            "kaina": {
-              "-currency": "Euro",
-              "#text": "25000"
-            }
+        {
+          "-vin": "234234234",
+          "marke": "Honda",
+          "modelis": "Accord",
+          "pagaminimoData": "2015-06-14",
+          "variklioTurisLitrais": "2",
+          "varomiejiRatai": "4",
+          "kaina": {
+            "-currency": "Euro",
+            "isKarto": "1200",
+            "lizingas": "2600"
           }
-        ]
-      }
+        },
+        {
+          "-vin": "23652346",
+          "marke": "Ferrari",
+          "modelis": "La Ferrari",
+          "pagaminimoData": "2015-04-14",
+          "variklioTurisLitrais": "6.5",
+          "varomiejiRatai": "4",
+          "kaina": {
+            "-currency": "Dollar",
+            "isKarto": "2000000",
+            "lizingas": "-"
+          }
+        },
+        {
+          "-vin": "34657",
+          "marke": "VW",
+          "modelis": "arteon",
+          "pagaminimoData": "2018-01-09",
+          "variklioTurisLitrais": "2.5",
+          "varomiejiRatai": "2",
+          "kaina": {
+            "-currency": "Euro",
+            "isKarto": "36000",
+            "lizingas": "45000"
+          }
+        }
+      ]
     }
   }
-]
+}

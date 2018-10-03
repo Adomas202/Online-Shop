@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {Route, Link, Switch, Redirect} from 'react-router-dom';
+import asyncComponent from '../hoc/asyncComponent';
 
 import OrderList from './Order/OrderList';
-// import NewOrder from './Order/newOrder';
-import asyncComponent from '../hoc/asyncComponent';
+import Counter from './Counter/Counter';
 
 const AsyncNewOrder = asyncComponent(() => {
     return import('./Order/newOrder');
@@ -21,17 +21,21 @@ class Header extends Component {
                     <ul className="nav">
                         <li><Link to="/" className="navbar-brand">Internetinė telefonų parduotuvė</Link></li>
                         <li className="nav-item"><Link className="nav-link" to="/">Produktų sąrašas</Link></li>
-                        <li><Link className="nav-link" to={{
+                        <li className="nav-item"><Link className="nav-link" to={{
                             pathname: '/orders/'
                         }}>Užsakymų sąrašas</Link></li>
-                        <li><Link to={{
+                        <li className="nav-item"><Link className="nav-link" to={{
                             pathname: '/New-Order'
                         }}>Naujas užsakymas</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to={{
+                            pathname: '/counter'
+                        }}>Skaiciuokle</Link></li>
                     </ul>
                 </nav>
                 <Switch>
                     {this.state.auth ? <Route path="/New-Order" component={AsyncNewOrder}/> : null }
                     <Route path="/orders" component={OrderList}/>
+                    <Route path="/counter" component={Counter}/>
                     {/*<Route render={() => <h1>Not found</h1>}/>*/}
                     <Redirect from="/" to="/orders"/>
                 </Switch>
