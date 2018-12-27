@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Order from './Order';
+import DB_CONFIG from '../../Config/config';
+import firebase from 'firebase/app';
 
 const searchingFor = (term) => {
     return (x) => {
@@ -12,7 +14,10 @@ class OrderList extends Component {
     constructor(props) {
         super(props);
 
-        const orders = require('../../JSONfiles/orders');
+        this.app = firebase.initializeApp(DB_CONFIG);
+        this.db = this.app.database().ref().child('orders');
+
+        // const orders = require('../../JSONfiles/orders');
 
         this.state = {
             orders: orders,
