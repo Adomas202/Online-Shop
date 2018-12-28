@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Order from './Order';
-import DB_CONFIG from '../../Config/config';
+import { DB_CONFIG } from '../../Config/config';
 import firebase from 'firebase/app';
 
 const searchingFor = (term) => {
@@ -15,12 +15,12 @@ class OrderList extends Component {
         super(props);
 
         this.app = firebase.initializeApp(DB_CONFIG);
-        this.db = this.app.database().ref().child('orders');
+        this.db = this.app.database().ref().child('/orders');
 
         // const orders = require('../../JSONfiles/orders');
 
         this.state = {
-            orders: orders,
+            orders: [],
             term: '',
             currentPage: 1,
             ordersPerPage: 10,
@@ -28,6 +28,19 @@ class OrderList extends Component {
 
         this.handleClick = this.handleClick.bind(this);
         this.searchHandler = this.searchHandler.bind(this);
+    }
+
+    componentWillMount() {
+        const previousOrders = this.state.order;
+
+        this.databas.on('child_added', snap => {
+            previousOrders.push({
+                id: snap.key,
+                brand: snap.val().orderContent,
+            })
+
+            this.setState({orders: previousOrders})
+        });
     }
 
     handleClick(event) {
