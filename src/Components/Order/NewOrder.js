@@ -6,20 +6,17 @@ class NewOrder extends Component {
     constructor() {
         super();
         this.state = {
-            order: ""
+            order: "",
+            app: firebase.initializeApp(DB_CONFIG)
         }
     }
 
     handleSubmit = (e) => {
         e.preventDefault();
-        const app = firebase.initializeApp(DB_CONFIG);
-        let dbCon = app.database().ref('/orders');
+        let dbCon = this.state.app.database().ref('/orders');
         dbCon.push({
             order: this.state.order
         })
-        // this.setState({
-        //     order: e
-        // })
     }
 
     handleKeyPress = (order) => {

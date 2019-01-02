@@ -13,9 +13,8 @@ class OrderList extends Component {
 
     constructor(props) {
         super(props);
-
-        this.app = firebase.initializeApp(DB_CONFIG);
-        this.db = this.app.database().ref().child('/orders');
+        // this.app = firebase.initializeApp(DB_CONFIG);
+        // this.db = this.app.database().ref().child('/orders');
 
         // const orders = require('../../JSONfiles/orders');
 

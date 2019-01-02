@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Product from './Product';
+import { connect } from 'react-redux';
 
 const searchingFor = (term) => {
     return (x) => {
@@ -35,7 +36,7 @@ class productList extends Component {
     }
 
     render() {
-
+        
         const {products, currentPage, productsPerPage } = this.state;
 
         const indexOfLastProduct = currentPage * productsPerPage;
@@ -94,4 +95,10 @@ class productList extends Component {
     }
 }
 
-export default productList;
+const mapStateToProps = (state) => {
+    return {
+        projects: state.project.projects
+    }
+}
+
+export default connect(mapStateToProps)(productList);
