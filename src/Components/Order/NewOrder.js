@@ -1,27 +1,30 @@
 import React, { Component } from 'react';
 import { DB_CONFIG } from '../../Config/config';
 import firebase from 'firebase';
+import { connect } from 'react-redux';
+import { createProject } from '../../store/actions/projectActions';
 
 class NewOrder extends Component {
     constructor() {
         super();
         this.state = {
-            order: "",
-            app: firebase.initializeApp(DB_CONFIG)
+            title: "",
+            // app: firebase.initializeApp(DB_CONFIG)
         }
     }
 
     handleSubmit = (e) => {
         e.preventDefault();
-        let dbCon = this.state.app.database().ref('/orders');
-        dbCon.push({
-            order: this.state.order
-        })
+        // let dbCon = this.state.app.database().ref('/orders');
+        // dbCon.push({
+        //     order: this.state.order
+        // })
+        this.props.createProject(this.state)
     }
 
-    handleKeyPress = (order) => {
+    handleKeyPress = (title) => {
         this.setState({
-            order: order.target.value
+            title: title.target.value
         })
     }
 
@@ -40,4 +43,10 @@ class NewOrder extends Component {
     }
 }
 
-export default NewOrder;
+const mapDispatchToProps = (dispatch) => {
+    return {
+        createProject: (project) => dispatch(createProject(project))
+    }
+}
+
+export default connect(null, mapDispatchToProps)(NewOrder);

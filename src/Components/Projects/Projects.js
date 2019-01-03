@@ -4,16 +4,14 @@ import { connect } from 'react-redux';
 
 class Projects extends Component {
     render() {
-        const { projects } = this.props;
+        const { projects } = this.props.projects;
         return (
             <div>
-                {console.log(this.props.projects)}
                 {this.props.projects && this.props.projects.map(project => {
                     return (
-                        <Project project={project.title} key={project.id} />
+                        <Project project={project} key={project.id} />
                     )
                 })}
-                <Project />
             </div>
         )
     }

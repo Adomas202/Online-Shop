@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Project = (props) => {
+const Project = ({project}) => {
     return (
         <div className="card">
-            <p>{props.project}</p>
+            <p>{project.title}</p>
         </div>
     )
 }
